@@ -1,0 +1,17 @@
+create table employee_info(
+id number(8),
+employee_name varchar (30),
+address varchar (20),
+phone_num varchar (40),
+salary varchar (50),
+bank_acc varchar (20)
+);
+
+create table booking_info(
+serial_num number(20),
+customer_name varchar (30),
+address varchar(20),
+phone_num number(20),
+table_no varchar(20),
+date_time varchar(20)
+);
